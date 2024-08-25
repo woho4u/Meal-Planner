@@ -8,6 +8,11 @@
   --gray1: #787878;
   --gray2: #393939;
   --gray3: #282828;
+
+  --green1: #9DC08B;
+  --green2: #9DC08B;
+  --green3: #609966;
+  --green4: #40513B;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -17,10 +22,14 @@
     --background-end-rgb: 0, 0, 0;
   }
 } */
-
+html{
+  height:100%;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: var(--background);
+
+  height:100%;
 }
 
 @layer utilities {
@@ -47,4 +56,30 @@ body {
 } 
 .gray3-bg {
   background-color: var(--gray3);
+}
+
+.green1 {
+  background-color: var(--green1);
+}
+.green2 {
+  background-color: var(--green2);
+} 
+.green3 {
+  background-color: var(--green3);
+}
+.green4 {
+  background-color: var(--green4);
+}
+
+.green1-bg {
+  background-color: var(--green1);
+}
+.green2-bg {
+  background-color: var(--green2);
+} 
+.green3-bg {
+  background-color: var(--green3);
+}
+.green4-bg {
+  background-color: var(--green4);
 }
